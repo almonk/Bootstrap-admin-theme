@@ -66,14 +66,13 @@ $config->scripts->append($config->urls->adminTemplates . "scripts/main.js");
           	<?php include($config->paths->templatesAdmin . "topnav.inc"); ?>
           </ul>
          	<?php echo $searchForm; ?>
-          <p class="pull-right">
-            <?php echo $user->name?>
-            <?php if($user->hasPermission('profile-edit')): ?> / 
-              <a class='action' href='<?php echo $config->urls->admin; ?>profile/'>Profile</a>
+          <ul class="nav secondary-nav">
+            <?php if($user->hasPermission('profile-edit')): ?> 
+              <li><a class='action' href='<?php echo $config->urls->admin; ?>profile/'><?=$user->name?></a></li>
             <?php endif; ?>
 
-            <a class='action' href='<?php echo $config->urls->admin; ?>login/logout/'>Logout</a>
-          </p>
+            <li><a class='action' href='<?php echo $config->urls->admin; ?>login/logout/'>Logout</a></li>
+          </ul>
         </div>
       </div>
     </div>  

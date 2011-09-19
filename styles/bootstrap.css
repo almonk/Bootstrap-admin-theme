@@ -493,7 +493,8 @@ dl dt {
   font-weight: bold;
 }
 dl dd {
-  margin-left: 9px;
+  margin-left: 0px;
+  margin-bottom:15px;
 }
 hr {
   margin: 20px 0 19px;
@@ -2286,7 +2287,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 .fade.in {
   opacity: 1;
 }
-.bootstrap-label {
+.bootstrap-label{
   padding: 1px 3px 2px;
   background-color: #bfbfbf;
   font-size: 9.75px;

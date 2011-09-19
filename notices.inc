@@ -3,7 +3,7 @@
 foreach($notices as $notice) {
 
 	$class = 'alert-message info';
-	$icon = 'ui-icon-info';
+	$icon = 'ui-icon-success';
 
 	if($notice instanceof NoticeError) {
 		$class = 'alert-message error'; 

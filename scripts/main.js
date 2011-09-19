@@ -39,5 +39,6 @@ $(document).ready(function() {
   $('dl').removeClass('nav');
   $('button').removeClass();
   $('button').addClass('btn default');
-  $('button[type=submit]').addClass('success')
+  $('button[name=submit_save]').addClass('success');
+  $('table button').addClass('small').removeClass('default');
 }); 

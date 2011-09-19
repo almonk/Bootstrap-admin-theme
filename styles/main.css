@@ -58,3 +58,16 @@ font-size:13px!important;
 text-transform:capitalize!important;
 cursor: pointer;
 }
+
+.btn.small{
+  padding:4px 5px!important;
+  margin-left:5px;
+}
+
+#content p{
+  margin-bottom:0px!important;
+}
+
+#content p.description{
+  margin-bottom:5px!important;
+}

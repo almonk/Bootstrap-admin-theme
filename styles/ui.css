@@ -58,7 +58,7 @@
 	}
 
 	.Inputfields .ui-widget-content {
-		padding: 1em; 
+		padding: 10px 10px; 
 	}
 
 	.Inputfields .ui-widget-header {
@@ -269,7 +269,7 @@
 	}
 
 .PageList .PageListItem{
-	padding: 6px 10px!important;
+	padding: 5px 10px!important;
 	margin-bottom: 3px;
 	background: #F5F5F5;
 	border-radius:2px;
