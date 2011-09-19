@@ -1,0 +1,60 @@
+@import url(bootstrap.css);
+@import url(JqueryUI/JqueryUI.css);
+@import url(ui.css);
+
+html,body{
+  background-image:url('images/bg.jpg');
+  background-repeat:repeat-x;
+}
+
+#content a:hover{
+  color:#0069D6!important;
+}
+
+#content ul, ol {
+margin: 0px;
+list-style-type:none;
+}
+
+.tabs{
+  margin-bottom:14px!important;
+}
+
+.brand{
+  text-indent:-9999px;
+  overflow:hidden;
+  background-image:url(images/logo.png);
+  background-repeat:no-repeat;
+  background-position:20px 10px;
+  width:136px;
+}
+
+.PageListActions{
+  margin:0px;
+  padding:0px;
+}
+
+.PageListActions li {
+  display: inline !important;
+  padding: 0 1px;
+  text-transform: lowercase;
+}
+
+table.AdminDataList td, ul.AdminDataList li {
+border-bottom: 0px solid!important;
+vertical-align: top;
+padding: 10px 10px 9px !important;
+}
+
+table.AdminDataList th{
+  border-bottom:1px solid #DDDDDD!important;
+  padding:10px 10px 9px!important;
+}
+
+table.AdminDataList th {
+font-weight: bold;
+color: #474747!important;
+font-size:13px!important;
+text-transform:capitalize!important;
+cursor: pointer;
+}
