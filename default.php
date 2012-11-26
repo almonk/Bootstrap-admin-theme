@@ -61,14 +61,14 @@ $config->scripts->append($config->urls->adminTemplates . "scripts/main.js");
   <div class="topbar">
       <div class="topbar-inner">
         <div class="container-fluid">
-          <a class="brand" href="<?=$config->urls->admin?>">Processwire</a>
+          <a class="brand" href="<php echo $config->urls->admin?>">Processwire</a>
           <ul class="nav">
           	<?php include($config->paths->templatesAdmin . "topnav.inc"); ?>
           </ul>
          	<?php echo $searchForm; ?>
           <ul class="nav secondary-nav">
             <?php if($user->hasPermission('profile-edit')): ?> 
-              <li><a class='action' href='<?php echo $config->urls->admin; ?>profile/'><?=$user->name?></a></li>
+              <li><a class='action' href='<?php echo $config->urls->admin; ?>profile/'><?php echo $user->name?></a></li>
             <?php endif; ?>
 
             <li><a class='action' href='<?php echo $config->urls->admin; ?>login/logout/'>Logout</a></li>
